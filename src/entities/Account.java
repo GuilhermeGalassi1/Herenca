@@ -35,12 +35,13 @@ public class Account {
 		return balance;
 	}
 	
-	public void witdraw (double amount) {
-		balance -= amount;
+	public void withdraw (double amount) {
+		balance -= amount + 5.0;
 	}
 	
 	public void deposit (double amount) {
 		balance += amount;
 	}
+	
+	}
 
-}
