@@ -5,8 +5,6 @@ import entities.BusinessAccount;
 import entities.SavingsAccount;
 
 public class Program2 {
-	private static BusinessAccount acc5;
-
 	public static void main(String[] args) {
 		
 		Account acc1 = new Account(1001, "Alex", 1000.0);
